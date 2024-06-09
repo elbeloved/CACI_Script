@@ -11,7 +11,7 @@ Root module calls these modules which can also be used separately to create inde
 
 ## Required Variables
 
-- [terraform.tfvars](https://github.com/elbeloved/CACI_Script/tree/main/Environment/terraform.tfvars) in root module is missing below credentials:
+- [terraform.tfvars](https://github.com/elbeloved/CACI_Script/tree/main/Environment/DEV/us-east-1/terraform.tfvars) in root module is missing below credentials:
 
 ```hcl
 AWS_ACCESS_KEY
