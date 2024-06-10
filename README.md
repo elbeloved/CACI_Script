@@ -2,7 +2,7 @@
 
 Terraform module which creates multiple resources on AWS.
 
-Root module calls these modules which can also be used separately to create independent resources:
+This script includes both Root and Child modules. The Root module is separated into different environments and is used to create resources in the Child modules. The Child modules can also be used separately to create independent resources:
 
 - [ASG-BASE](https://github.com/elbeloved/CACI_Script/tree/main/MODULES/ASG-BASE) - creates an autoscaling group
 - [IAM-BASE](https://github.com/elbeloved/CACI_Script/tree/main/MODULES/IAM-BASE) - creates an IAM instance-profile/role
