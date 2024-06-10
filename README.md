@@ -11,7 +11,7 @@ This script includes both Root and Child modules. The Root module is separated i
 
 ## Required Variables
 
-- The CIDR blocks for the VPC and subnets were selected arbitrarily and may require adjustment if they conflict with the user's existing infrastructure.
+- [vars.tf](https://github.com/elbeloved/CACI_Script/tree/main/Environment/DEV/us-east-1/vars.tf) variables in the CIDR blocks for VPC and subnets were selected arbitrarily and may require adjustment if they conflict with the user's existing infrastructure.
 
 - [terraform.tfvars](https://github.com/elbeloved/CACI_Script/tree/main/Environment/DEV/us-east-1/terraform.tfvars) in root module is missing below credentials:
 
